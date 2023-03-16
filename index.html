@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fixscreen Demo</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="window">
+      <div class="panel">
+        <div class = "textSmall"> BuitenTemperatuur</div>
+        <div id = "outsideTemp" class = "textBig"> 8°C</div>
+        <div id = "Clock" class = "textBig"> 05:00</div>
+        <div class="mychart"><canvas id="fixscreen1Chart"></canvas></div>
+        <div class="mychart"><canvas id="fixscreen2Chart"></canvas></div>
+        <div class="mychart"><canvas id="fixscreen3Chart"></canvas></div>
+        <div class="mychart"><canvas id="fixscreen4Chart"></canvas></div>
+      </div>
+      <div class="panel2">
+        <div class="texture"><canvas id="environment"></canvas></div>
+        <div class="canvasWindow"></div>
+        <div class="tempchart"><canvas id="temperatureChart"></canvas></div>
+      </div>
+    </div>
+    <script type="module" src="bundle.js"></script>
+  </body>
+</html>
